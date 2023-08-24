@@ -1,20 +1,24 @@
 :root {
-    --bg-color: #000000; /* background color */
+    --bg-color: #000000E6; /* background color */
     --bg-content-color: var(--bg-color); /* background color for #main-content */
-    --fg-color: #EBDBB2; /* default foreground color */
-    --fg-highlight: #d8a657; /* foreground color for "highlighted" items */
-    --pane-bg-color: #282828; /* background color for panes e.g. search bar and link containers */
-    --button-color: #45403d; /* background color for buttons */
-    --text-input-underline-color: #7c6f64; /* underline color for text input when not focused */
-    --text-input-underline-focused-color: var(--fg-highlight); /* underline color for text input when focused */
+    --fg-color: #E0CDA5; /* default foreground color */
+    --fg-highlight: #DB4740; /* foreground color for "highlighted" items */
+    --green: #B1B946;
+    --red: #DB4740;
+    --yellow: #DF9238;
+
+    --pane-bg-color: #0A0B0C; /* background color for panes e.g. search bar and link containers */
+    --button-color: #1B1D1D; /* background color for buttons */
+    --text-input-underline-color: #928374; /* underline color for text input when not focused */
+    --text-input-underline-focused-color: var(--yellow); /* underline color for text input when focused */
     --link-color: var(--fg-color); /* color for links while not hovered */
     --link-hover-color: var(--fg-highlight); /* color for links when hovered */
-    --shadow-color: #222222; /* shadow color */
-    --border-color: #EBDBB2; /* border color, in case borders are used */
+    --shadow-color: #000000; /* shadow color */
+    --border-color: #47423E; /* border color, in case borders are used */
 }
 
 body {
-    background: url('background.jpg') center/cover;
+    background: url('Dark red Japan.png') center/cover;
     background-color: var(--bg-color);
     font-family: "Iosevka Nerd Font";
     margin: 0px;
@@ -35,15 +39,16 @@ body {
 
 #main-content {
     background-color: var(--bg-content-color);
-    border: solid 1px var(--border-color);
+    border: solid 2px var(--border-color);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px var(--shadow-color);
+    box-shadow: 0px 0px 15px 5px var(--shadow-color);
     display: flex;
     gap: 10px;
     padding: min(10vw, 30px);
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+    backdrop-filter: blur(15px);
 }
 
 #time-greeting {
@@ -56,7 +61,7 @@ body {
 #current-time {
     font-size: min(15vw, 30px);
     font-weight: normal;
-    color: var(--fg-highlight);
+    color: var(--green);
 }
 
 #search {
