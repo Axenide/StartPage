@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #000000E6; /* background color */
+    --bg-color: #000000C2; /* background color */
     --bg-content-color: var(--bg-color); /* background color for #main-content */
     --fg-color: #E0CDA5; /* default foreground color */
     --fg-highlight: #DB4740; /* foreground color for "highlighted" items */
