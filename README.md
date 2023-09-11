@@ -1,31 +1,62 @@
-<h1 align="center">
-⭐ StartPage
-</h1>
+<div align="center">
+    <img src="/img/README-decorator.png" width=300/><br/>
+    <a href="https://github.com/AllJavi/tartarus-startpage/stargazers">
+        <img src="https://img.shields.io/github/stars/AllJavi/tartarus-startpage?color=a9b665&style=for-the-badge&logo=starship">
+    </a>
+    <a href="https://github.com/AllJavi/tartarus-startpage/issues">
+        <img src="https://img.shields.io/github/issues/AllJavi/tartarus-startpage?color=ea6962&style=for-the-badge&logo=codecov">
+    </a>
+    <a href="https://github.com/AllJavi/tartarus-startpage/network/members">
+        <img src="https://img.shields.io/github/forks/AllJavi/tartarus-startpage?color=7daea3&style=for-the-badge&logo=jfrog-bintray">
+    </a>
+    <a href="https://github.com/AllJavi/tartarus-startpage/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-orange.svg?color=d4be98&style=for-the-badge&logo=archlinux">
+    </a>
+</div>
 
+## Preview
 
-<p align="center"><i>
-    A <a href="https://axenide.github.io/StartPage/">start page</a> that contains the shortcuts I need.
-    <br>
-    <img src="https://github.com/Axenide/start-page/assets/66109459/d9c9b4d5-c461-4c9b-b544-5348d7a73217">
-    <sup>It tries to mimic my <a href="https://github.com/Axenide/Dotfiles">Hyprland setup</a>.</sup>
-</i></p>
+https://github.com/AllJavi/tartarus-startpage/assets/49349604/9a2a3f4c-33ef-4eb3-9243-cc160a56a181
 
-<p align="center">
-<samp>
-  <i>Please consider giving me a tip. :)</i>
-  <br>
-  <sup>
-    <b>
-    <a href="https://cafecito.app/axenide">☕ Cafecito</a> |
-    <a href="https://ko-fi.com/axenide">❤️ Ko-Fi</a> |
-    <a href="https://paypal.me/Axenide">💸 PayPal</a>
-    </b>
-    <br>
-    <b>💵 USDT:</b> <i>TDub4eGEbXMqv4CFo65oNTaBYMJpbJyrtQ</i> (TRC20)
-    <br>
-    <b>💶 USDC:</b> <i>0x1959681e522dbaedd93f90b0ece0d627f96432ee</i> (ERC20)
-    <br>
-    <b>🪙 BTC:</b> <i>16BTDDEmE2D98YPePt6VAvsC4s9xrVLpk4</i>
-  </sup>
-</samp>
-</p>
+This start page is based on the [dawn](https://github.com/b-coimbra/dawn) repository, which has even more functionality. I've tweaked the page's style a bit to match my [dotfiles](https://github.com/AllJavi/tartarus-dotfiles), and I've added some features to make it more comfortable.
+
+## Keybindings
+| Hotkey                                            | Action                      |
+| ------------------------------------------------- | --------------------------- |
+| <kbd>Numrow</kbd> \| <kbd>MouseWheel</kbd> \| <kbd>Click</kbd> | Switch tabs            |
+| <kbd>s</kbd>                           | Search Dialog            |
+| <kbd>q</kbd>                           | Config Dialog (new)           |
+| <kbd>Esc</kbd>                           | Close Dialogs            |
+
+## Configuration Dialog
+![config-dialog](https://github.com/AllJavi/tartarus-startpage/assets/49349604/3b42c650-b5bb-4a7d-a358-cfa5a8915966)
+
+The default configuration file is [userconfig.js](userconfig.js), but you can change it in the configuration dialog. You can find more information about how the file works in the [original repository](https://github.com/b-coimbra/dawn). The available components are tabs, a clock, and weather.
+
+Additionally, there's a new option called `fastlink` to set the link of the Pokéball button.
+
+## Search Dialog
+![search-dialog](https://github.com/AllJavi/tartarus-startpage/assets/49349604/3f76323d-88c4-41b6-b93d-e4cceb1780b7)
+
+The search dialog allows you to display a search bar with various search engines defined in the configuration. To select each one, you simply need to prefix the query with the corresponding `!<id>`.
+By default, the defined search engines are:
+- `!g`: google
+- `!d`: duckduckgo
+- `!y`: youtube
+- `!r`: reddit
+- `!p`: pinterest
+
+## Available banners
+|cbg-2|cbg-3|cbg-4|cbg-5|
+| ------------- | ------------- | ------------- | ------------- | 
+|<img src="src/img/banners/cbg-2.gif" width=175>|<img src="src/img/banners/cbg-3.gif" width=175>|<img src="src/img/banners/cbg-4.gif" width=175>|<img src="src/img/banners/cbg-5.gif" width=175>|
+
+|cbg-6|cbg-7|cbg-8|cbg-9|
+| ------------- | ------------- | ------------- | ------------- |
+|<img src="src/img/banners/cbg-6.gif" width=175>|<img src="src/img/banners/cbg-7.gif" width=175>|<img src="src/img/banners/cbg-8.gif" width=175>|<img src="src/img/banners/cbg-9.gif" width=175>|
+
+## Credit
+- [Dawn Startpage](https://github.com/b-coimbra/dawn) ([preview](https://startpage.metaphoric.dev/))
+
+## License
+[MIT License](./LICENSE)
