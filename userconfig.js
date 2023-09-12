@@ -17,7 +17,7 @@ const default_config = {
       d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
-      p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
+      i: ["https://www.google.com/search?tbm=isch&q=", "Google Images"],
     },
   },
   keybindings: {
@@ -206,6 +206,12 @@ const default_config = {
               icon: "brand-openai",
               icon_color: "#8ab87d",
             },
+            {
+              name: "vscode",
+              url: "https://vscode.dev/",
+              icon: "brand-vscode",
+              icon_color: "#80a99d",
+            },
           ],
         },
         {
@@ -214,7 +220,7 @@ const default_config = {
             {
               name: "phind",
               url: "https://www.phind.com/",
-              icon: "brain",
+              icon: "zoom-code",
               icon_color: "#beac8e",
             },
             {
@@ -224,16 +230,16 @@ const default_config = {
               icon_color: "#80a99d",
             },
             {
+              name: "bootstrap",
+              url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+              icon: "brand-bootstrap",
+              icon_color: "#ad80a2",
+            },
+            {
               name: "hacktricks",
               url: "https://book.hacktricks.xyz/welcome/readme",
               icon: "biohazard",
               icon_color: "#db4740",
-            },
-            {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#80a99d",
             },
           ],
         },
@@ -304,6 +310,12 @@ const default_config = {
               icon: "school",
               icon_color: "#80a99d",
             },
+            {
+              name: "slack",
+              url: "https://slack.com/",
+              icon: "brand-slack",
+              icon_color: "#d3869b",
+            },
           ],
         },
         {
@@ -347,7 +359,7 @@ const default_config = {
               name: "drive",
               url: "https://drive.google.com/drive/u/0/my-drive",
               icon: "brand-google-drive",
-              icon_color: "#f28533",
+              icon_color: "#edbe57",
             },
             {
               name: "dropbox",
@@ -356,10 +368,22 @@ const default_config = {
               icon_color: "#80a99d",
             },
             {
-              name: "fotos",
+              name: "photos",
               url: "https://photos.google.com/u/1",
               icon: "photo-filled",
               icon_color: "#db4740",
+            },
+            {
+              name: "mega",
+              url: "https://mega.nz/fm/myfiles",
+              icon: "letter-m",
+              icon_color: "#f28533",
+            },
+            {
+              name: "onedrive",
+              url: "https://onedrive.live.com/",
+              icon: "brand-onedrive",
+              icon_color: "#80a99d",
             },
           ],
         },

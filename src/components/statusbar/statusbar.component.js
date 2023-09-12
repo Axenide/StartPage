@@ -260,20 +260,34 @@ class Statusbar extends Component {
     }
   }
 
-  handleKeyPress(event) {
-    if (!event) return;
+handleKeyPress(event) {
+  if (!event) return;
 
-    let { target, key } = event;
+  let { target, key } = event;
 
-    if (target.shadow && target.shadow.activeElement) return;
+  if (target.shadow && target.shadow.activeElement) return;
 
-    if (
-      Number.isInteger(parseInt(key)) &&
-      key <= this.externalRefs.categories.length
-    ) {
-      this.activateByKey(key - 1);
+  let activeTab = -1;
+  this.refs.tabs.forEach((tab, index) => {
+    if (tab.getAttribute("active") === "") {
+      activeTab = index;
     }
+  });
+
+  if (key === 'x') {
+    this.activateByKey((activeTab + 1) % (this.refs.tabs.length - 1));
+  } else if (key === 'z') {
+    this.activateByKey(
+      (activeTab - 1) < 0 ? this.refs.tabs.length - 2 : activeTab - 1,
+    );
+  } else if (
+    Number.isInteger(parseInt(key)) &&
+    key <= this.externalRefs.categories.length
+  ) {
+    this.activateByKey(key - 1);
   }
+}
+
 
   activateByKey(key) {
     if (key < 0) return;

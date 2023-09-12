@@ -216,7 +216,8 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          box-shadow: inset 0 0 0 2px var(--flavour);
+          border: 1px solid var(--flavour);
+          box-shadow: 0 0 15px rgba(0, 0, 0, .75);
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
