@@ -192,7 +192,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "",
+          name: "coding",
           links: [
             {
               name: "github",
