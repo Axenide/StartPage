@@ -43,6 +43,7 @@ class Statusbar extends Component {
       #tabs {
           width: 100%;
           height: 100%;
+          display: grid;
       }
 
       #tabs ul {
@@ -142,11 +143,11 @@ class Statusbar extends Component {
       .widget:last-child {
           padding-right: 2em;
       }
-
-      .widget:hover {
-          cursor: pointer;
-          background: rgba(255, 255, 255, .05);
-      }
+      //
+      // .widget:hover {
+      //     cursor: pointer;
+      //     background: rgba(255, 255, 255, .05);
+      // }
 
       #tabs > cols {
           position: relative;

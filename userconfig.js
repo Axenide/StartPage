@@ -7,8 +7,8 @@ const default_config = {
     scale: "C",
   },
   clock: {
-    format: "h:i p",
-    iconColor: "#db4740",
+    format: " ",
+    iconColor: "rgba(0, 0, 0, 0)",
   },
   search: {
     engines: {
@@ -26,7 +26,7 @@ const default_config = {
   },
   disabled: [],
   fastlink: "https://chat.openai.com/",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "media",
@@ -42,7 +42,7 @@ const default_config = {
           },
           {
             name: "x",
-            url: "https://twitter.com/home",
+            url: "https://x.com/",
             icon: "brand-x",
             icon_color: "#beac8e",
           },
