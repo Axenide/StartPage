@@ -7,8 +7,8 @@ const default_config = {
     scale: "C",
   },
   clock: {
-    format: " ",
-    iconColor: "rgba(0, 0, 0, 0)",
+    format: "h:i p",
+    iconColor: "#db4740",
   },
   search: {
     engines: {
