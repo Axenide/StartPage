@@ -174,10 +174,11 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #1b1d1d;
+          border-right: 1px solid #1b1d1d;
+          background: transparent;
           color: #b1b946;
           cursor: pointer;
-          border-radius: 5px 15px 15px 5px;
+          border-radius: 10px 0px 0px 10px;
       }
 
       .fastlink:hover {
