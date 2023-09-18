@@ -51,7 +51,7 @@ class Statusbar extends Component {
           height: 100%;
           position: relative;
           list-style: none;
-          margin-left: 1em;
+          margin-left: 0em;
       }
 
       #tabs ul li:not(:last-child)::after {
