@@ -241,6 +241,12 @@ const default_config = {
               icon: "biohazard",
               icon_color: "#db4740",
             },
+            {
+              name: "free-for.dev",
+              url: "https://free-for.dev/#/",
+              icon: "letter-f",
+              icon_color: "#8ab87d",
+            },
           ],
         },
         {
