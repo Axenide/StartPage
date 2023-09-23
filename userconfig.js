@@ -339,6 +339,12 @@ const default_config = {
               icon: "brand-office",
               icon_color: "#f28533",
             },
+            {
+              name: "deepl",
+              url: "https://www.deepl.com/translator",
+              icon: "language",
+              icon_color: "#70919b",
+            },
           ],
         },
       ],
