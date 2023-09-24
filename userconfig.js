@@ -212,16 +212,22 @@ const default_config = {
               icon: "brand-vscode",
               icon_color: "#80a99d",
             },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
             {
               name: "phind",
               url: "https://www.phind.com/",
               icon: "zoom-code",
               icon_color: "#beac8e",
+            },
+          ],
+        },
+        {
+          name: "resources",
+          links: [ 
+            {
+              name: "devhints",
+              url: "https://devhints.io/",
+              icon: "paperclip",
+              icon_color: "#ad80a2",
             },
             {
               name: "flutter",
