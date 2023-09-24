@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "media",
-      background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/soda-boy.gif",
       categories: [{
         name: "Social",
         links: [
