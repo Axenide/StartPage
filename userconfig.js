@@ -222,19 +222,7 @@ const default_config = {
         },
         {
           name: "resources",
-          links: [ 
-            {
-              name: "devhints",
-              url: "https://devhints.io/",
-              icon: "paperclip",
-              icon_color: "#ad80a2",
-            },
-            {
-              name: "flutter",
-              url: "https://docs.flutter.dev/ui",
-              icon: "brand-flutter",
-              icon_color: "#80a99d",
-            },
+          links: [  
             {
               name: "bootstrap",
               url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
@@ -252,6 +240,12 @@ const default_config = {
               url: "https://free-for.dev/#/",
               icon: "letter-f",
               icon_color: "#8ab87d",
+            },
+            {
+              name: "devhints",
+              url: "https://devhints.io/",
+              icon: "paperclip",
+              icon_color: "#ad80a2",
             },
           ],
         },
