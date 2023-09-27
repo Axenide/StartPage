@@ -381,7 +381,7 @@ const default_config = {
             },
             {
               name: "photos",
-              url: "https://photos.google.com/u/1",
+              url: "https://photos.google.com/",
               icon: "photo-filled",
               icon_color: "#db4740",
             },
