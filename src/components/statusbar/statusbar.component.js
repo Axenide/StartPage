@@ -70,7 +70,7 @@ class Statusbar extends Component {
           width: 35px;
           text-align: center;
           font: 700 13px 'Yu Gothic', serif;
-          color: rgba(212, 190, 152, 0.5);
+          color: #47423e;
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -79,7 +79,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #1b1d1d;
+          color: #b1b946;
       }
 
       #tabs ul li:last-child {
