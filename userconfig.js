@@ -53,10 +53,10 @@ const default_config = {
             icon_color: "#f28533",
           },
           {
-            name: "twitch",
-            url: "https://www.twitch.tv/",
-            icon: "brand-twitch",
-            icon_color: "#d3869b",
+            name: "threads",
+            url: "https://threads.net/",
+            icon: "brand-threads",
+            icon_color: "#beac8e",
           },
           {
             name: "whatsapp",
@@ -108,6 +108,12 @@ const default_config = {
             url: "https://www.wcostream.com/",
             icon: "device-tv",
             icon_color: "#f28533",
+          },
+          {
+            name: "twitch",
+            url: "https://www.twitch.tv/",
+            icon: "brand-twitch",
+            icon_color: "#d3869b",
           },
         ],
       }],
