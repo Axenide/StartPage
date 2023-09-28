@@ -110,6 +110,12 @@ const default_config = {
             icon_color: "#f28533",
           },
           {
+            name: "theflixer",
+            url: "https://theflixer.tv/home",
+            icon: "player-play",
+            icon_color: "#a3a0be",
+          },
+          {
             name: "twitch",
             url: "https://www.twitch.tv/",
             icon: "brand-twitch",
