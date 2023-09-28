@@ -9,3 +9,13 @@
         </i>
     </sup>
 </p>
+
+## Keybindings
+| Hotkey                                            | Action                      |
+| ------------------------------------------------- | --------------------------- |
+| <kbd>Numrow</kbd> <kbd>MouseWheel</kbd> <kbd>Click</kbd> | Switch tabs            |
+| <kbd>z</kbd>                           | Previous tab            |
+| <kbd>x</kbd>                           | Next tab            |
+| <kbd>s</kbd>                           | Search Dialog            |
+| <kbd>q</kbd>                           | Config Dialog           |
+| <kbd>Esc</kbd>                           | Close Dialogs            |
