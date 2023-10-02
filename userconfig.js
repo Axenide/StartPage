@@ -237,7 +237,7 @@ const default_config = {
           links: [  
             {
               name: "bootstrap",
-              url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+              url: "https://getbootstrap.com/docs/",
               icon: "brand-bootstrap",
               icon_color: "#ad80a2",
             },
