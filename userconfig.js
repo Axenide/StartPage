@@ -171,7 +171,13 @@ const default_config = {
               url: "https://tabler-icons.io/",
               icon: "brand-tabler",
               icon_color: "#80a99d",
-            }
+            },
+            {
+              name: "picwish",
+              url: "https://www.picswish.com/",
+              icon: "camera-selfie",
+              icon_color: "#a3a0be",
+            },
           ],
         },
         {
@@ -250,7 +256,7 @@ const default_config = {
             {
               name: "free-for.dev",
               url: "https://free-for.dev/#/",
-              icon: "letter-f",
+              icon: "source-code",
               icon_color: "#8ab87d",
             },
             {
@@ -311,34 +317,6 @@ const default_config = {
               icon: "app-window",
               icon_color: "#8ab87d",
             },
-          ],
-        },
-        {
-          name: "university",
-          links: [
-            {
-              name: "umvirtual",
-              url: "https://virtual.um.edu.ar/",
-              icon: "notebook",
-              icon_color: "#626464",
-            },
-            {
-              name: "portal estudiantes",
-              url: "https://portal.um.edu.ar/",
-              icon: "school",
-              icon_color: "#80a99d",
-            },
-            {
-              name: "slack",
-              url: "https://slack.com/",
-              icon: "brand-slack",
-              icon_color: "#d3869b",
-            },
-          ],
-        },
-        {
-          name: "office",
-          links: [
             {
               name: "docs",
               url: "https://docs.google.com/document/u/0/",
@@ -356,6 +334,70 @@ const default_config = {
               url: "https://www.deepl.com/translator",
               icon: "language",
               icon_color: "#70919b",
+            },
+          ],
+        },
+        {
+          name: "university",
+          links: [
+            {
+              name: "umvirtual",
+              url: "https://virtual.um.edu.ar/",
+              icon: "notebook",
+              icon_color: "#626464",
+            },
+            {
+              name: "portal estudiantes",
+              url: "https://portal.um.edu.ar/",
+              icon: "books",
+              icon_color: "#80a99d",
+            },
+            {
+              name: "slack",
+              url: "https://slack.com/",
+              icon: "brand-slack",
+              icon_color: "#d3869b",
+            },
+          ],
+        },
+        {
+          name: "tools",
+          links: [
+            {
+              name: "cymath",
+              url: "https://www.cymath.com/",
+              icon: "calculator",
+              icon_color: "#b1b946",
+            },
+            {
+              name: "gitmind",
+              url: "https://gitmind.com/",
+              icon: "planet",
+              icon_color: "#f28533",
+            },
+            {
+              name: "proquest",
+              url: "https://www.proquest.com/",
+              icon: "book",
+              icon_color: "#80a99d",
+            },
+            {
+              name: "parafrasist",
+              url: "https://parafrasist.com/",
+              icon: "rosette",
+              icon_color: "#d3869b",
+            },
+            {
+              name: "scribbr",
+              url: "https://www.scribbr.es/",
+              icon: "school",
+              icon_color: "#f28533",
+            },
+            {
+              name: "resoomer",
+              url: "https://resoomer.com/es/",
+              icon: "blockquote",
+              icon_color: "#db4740",
             },
           ],
         },
@@ -394,13 +436,13 @@ const default_config = {
             {
               name: "photos",
               url: "https://photos.google.com/",
-              icon: "photo-filled",
+              icon: "photo",
               icon_color: "#db4740",
             },
             {
               name: "mega",
               url: "https://mega.nz/fm/myfiles",
-              icon: "letter-m",
+              icon: "cloud-upload",
               icon_color: "#f28533",
             },
             {
