@@ -144,7 +144,7 @@ const default_config = {
               icon_color: "#80a99d",
             },
             {
-              name: "leonardo",
+              name: "leonardo.ai",
               url: "https://app.leonardo.ai/",
               icon: "zodiac-leo",
               icon_color: "#a3a0be",
