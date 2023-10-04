@@ -303,7 +303,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
-          name: "docs",
+          name: "writing",
           links: [
             {
               name: "notion",
@@ -312,15 +312,9 @@ const default_config = {
               icon_color: "#beac8e",
             },
             {
-              name: "w3schools",
-              url: "https://www.w3schools.com/",
-              icon: "app-window",
-              icon_color: "#8ab87d",
-            },
-            {
               name: "docs",
               url: "https://docs.google.com/document/u/0/",
-              icon: "writing",
+              icon: "file-description",
               icon_color: "#80a99d",
             },
             {
@@ -357,6 +351,12 @@ const default_config = {
               url: "https://slack.com/",
               icon: "brand-slack",
               icon_color: "#d3869b",
+            },
+            {
+              name: "w3schools",
+              url: "https://www.w3schools.com/",
+              icon: "app-window",
+              icon_color: "#8ab87d",
             },
           ],
         },
