@@ -178,6 +178,12 @@ const default_config = {
               icon: "camera-selfie",
               icon_color: "#a3a0be",
             },
+            {
+              name: "photopea",
+              url: "https://www.photopea.com/",
+              icon: "spiral",
+              icon_color: "#8ab87d",
+            },
           ],
         },
         {
