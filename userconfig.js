@@ -93,7 +93,7 @@ const default_config = {
         links: [
           {
             name: "netflix",
-            url: "https://www.disneyplus.com/home",
+            url: "https://www.netflix.com/",
             icon: "brand-netflix",
             icon_color: "#db4740",
           },
