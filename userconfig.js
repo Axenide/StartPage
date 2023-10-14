@@ -184,6 +184,18 @@ const default_config = {
               icon: "spiral",
               icon_color: "#8ab87d",
             },
+            {
+              name: "firefly",
+              url: "https://firefly.adobe.com/",
+              icon: "brand-adobe",
+              icon_color: "#db4740",
+            },
+            {
+              name: "bing create",
+              url: "https://www.bing.com/create",
+              icon: "brand-bing",
+              icon_color: "#80a99d",
+            },
           ],
         },
         {
@@ -241,6 +253,12 @@ const default_config = {
               url: "https://www.phind.com/",
               icon: "zoom-code",
               icon_color: "#beac8e",
+            },
+            {
+              name: "bing chat",
+              url: "https://www.bing.com/chat",
+              icon: "brand-bing",
+              icon_color: "#80a99d",
             },
           ],
         },
