@@ -149,6 +149,12 @@ const default_config = {
               icon: "zodiac-leo",
               icon_color: "#a3a0be",
             },
+            {
+              name: "bing create",
+              url: "https://www.bing.com/create",
+              icon: "brand-bing",
+              icon_color: "#80a99d",
+            },
           ],
         },
         {
@@ -173,28 +179,28 @@ const default_config = {
               icon_color: "#80a99d",
             },
             {
-              name: "picwish",
-              url: "https://www.picswish.com/",
-              icon: "camera-selfie",
-              icon_color: "#a3a0be",
-            },
-            {
               name: "photopea",
               url: "https://www.photopea.com/",
               icon: "spiral",
               icon_color: "#8ab87d",
             },
             {
+              name: "vectorpea",
+              url: "https://www.vectorpea.com/",
+              icon: "seeding",
+              icon_color: "#b1b946",
+            },
+            {
+              name: "picwish",
+              url: "https://www.picswish.com/",
+              icon: "camera-selfie",
+              icon_color: "#a3a0be",
+            },
+            {
               name: "firefly",
               url: "https://firefly.adobe.com/",
               icon: "brand-adobe",
               icon_color: "#db4740",
-            },
-            {
-              name: "bing create",
-              url: "https://www.bing.com/create",
-              icon: "brand-bing",
-              icon_color: "#80a99d",
             },
           ],
         },
