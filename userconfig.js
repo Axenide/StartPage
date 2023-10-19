@@ -266,6 +266,12 @@ const default_config = {
               icon: "brand-bing",
               icon_color: "#80a99d",
             },
+            {
+              name: "bard",
+              url: "https://bard.google.com/",
+              icon: "sparkles",
+              icon_color: "#a3a0be",
+            },
           ],
         },
         {
