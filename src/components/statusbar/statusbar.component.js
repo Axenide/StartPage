@@ -252,7 +252,7 @@ class Statusbar extends Component {
       }
     });
 
-    if (wheelDelta > 0) {
+    if (wheelDelta < 0) {
       this.activateByKey((activeTab + 1) % (this.refs.tabs.length - 1));
     } else {
       this.activateByKey(
