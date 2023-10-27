@@ -272,6 +272,12 @@ const default_config = {
               icon: "sparkles",
               icon_color: "#a3a0be",
             },
+            {
+              name: "claude",
+              url: "https://claude.ai/",
+              icon: "robot",
+              icon_color: "#beac8e",
+            },
           ],
         },
         {
@@ -478,7 +484,7 @@ const default_config = {
             {
               name: "mega",
               url: "https://mega.nz/fm/myfiles",
-              icon: "cloud-upload",
+              icon: "circle-letter-m",
               icon_color: "#f28533",
             },
             {
