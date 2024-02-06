@@ -53,10 +53,22 @@ const default_config = {
             icon_color: "#f28533",
           },
           {
+            name: "instagram",
+            url: "https://www.instagram.com/",
+            icon: "brand-instagram",
+            icon_color: "#d3869b",
+          },
+          {
             name: "threads",
             url: "https://threads.net/",
             icon: "brand-threads",
             icon_color: "#beac8e",
+          },
+          {
+            name: "facebook",
+            url: "https://www.facebook.com/",
+            icon: "brand-facebook",
+            icon_color: "#80a99d",
           },
           {
             name: "whatsapp",
