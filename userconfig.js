@@ -77,6 +77,18 @@ const default_config = {
             icon_color: "#a3a0be",
           },
           {
+            name: "telegram",
+            url: "https://web.telegram.org/",
+            icon: "brand-telegram",
+            icon_color: "#80a99d",
+          },
+          {
+            name: "twitch",
+            url: "https://www.twitch.tv/",
+            icon: "brand-twitch",
+            icon_color: "#d3869b",
+          },
+          {
             name: "whatsapp",
             url: "https://web.whatsapp.com/",
             icon: "brand-whatsapp",
@@ -107,7 +119,7 @@ const default_config = {
           },
         ],
       }, {
-        name: "Video",
+        name: "Streaming",
         links: [
           {
             name: "netflix",
@@ -134,10 +146,10 @@ const default_config = {
             icon_color: "#a3a0be",
           },
           {
-            name: "twitch",
-            url: "https://www.twitch.tv/",
-            icon: "brand-twitch",
-            icon_color: "#d3869b",
+            name: "spotify",
+            url: "https://open.spotify.com/",
+            icon: "brand-spotify",
+            icon_color: "#b1b946",
           },
         ],
       }],
