@@ -71,6 +71,12 @@ const default_config = {
             icon_color: "#80a99d",
           },
           {
+            name: "discord",
+            url: "https://discord.com/",
+            icon: "brand-discord",
+            icon_color: "#a3a0be",
+          },
+          {
             name: "whatsapp",
             url: "https://web.whatsapp.com/",
             icon: "brand-whatsapp",
