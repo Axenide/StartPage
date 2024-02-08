@@ -180,7 +180,7 @@ const default_config = {
               icon_color: "#a3a0be",
             },
             {
-              name: "bing create",
+              name: "designer",
               url: "https://www.bing.com/create",
               icon: "brand-bing",
               icon_color: "#80a99d",
@@ -291,7 +291,7 @@ const default_config = {
               icon_color: "#beac8e",
             },
             {
-              name: "bing chat",
+              name: "copilot",
               url: "https://www.bing.com/chat",
               icon: "brand-bing",
               icon_color: "#80a99d",
