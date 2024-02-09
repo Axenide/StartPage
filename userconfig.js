@@ -297,8 +297,8 @@ const default_config = {
               icon_color: "#80a99d",
             },
             {
-              name: "bard",
-              url: "https://bard.google.com/",
+              name: "gemini",
+              url: "https://gemini.google.com/app",
               icon: "sparkles",
               icon_color: "#a3a0be",
             },
