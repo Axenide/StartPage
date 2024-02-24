@@ -12,9 +12,9 @@ const default_config = {
   },
   search: {
     engines: {
+      d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
       b: ["https://bing.com/search?q=", "Bing"],
-      d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       i: ["https://www.google.com/search?tbm=isch&q=", "Google Images"],

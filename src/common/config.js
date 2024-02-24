@@ -11,6 +11,7 @@ class Config {
     },
     search: {
       engines: {
+        d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
         g: ['https://google.com/search?q=', 'Google'],
         y: ['https://youtube.com/results?search_query=', 'Youtube'],
       }
