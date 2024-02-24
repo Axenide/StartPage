@@ -12,7 +12,7 @@ const default_config = {
   },
   search: {
     engines: {
-      d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
+      d: ["https://duckduckgo.com/?hps=1&q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
       b: ["https://bing.com/search?q=", "Bing"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
