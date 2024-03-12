@@ -308,6 +308,12 @@ const default_config = {
               icon: "robot",
               icon_color: "#beac8e",
             },
+            {
+              name: "pi",
+              url: "https://pi.ai/",
+              icon: "math-pi",
+              icon_color: "#8ab87d",
+            },
           ],
         },
         {
@@ -500,16 +506,16 @@ const default_config = {
               icon_color: "#edbe57",
             },
             {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
-              icon_color: "#80a99d",
-            },
-            {
               name: "photos",
               url: "https://photos.google.com/",
               icon: "photo",
               icon_color: "#db4740",
+            },
+            {
+              name: "dropbox",
+              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
+              icon: "box-seam",
+              icon_color: "#80a99d",
             },
             {
               name: "mega",
@@ -523,6 +529,12 @@ const default_config = {
               icon: "brand-onedrive",
               icon_color: "#80a99d",
             },
+            {
+              name: "tgstorage",
+              url: "https://tgstorage.com/app",
+              icon: "brand-telegram",
+              icon_color: "#80a99d",
+            }
           ],
         },
         {
