@@ -305,8 +305,8 @@ const default_config = {
             {
               name: "claude",
               url: "https://claude.ai/",
-              icon: "robot",
-              icon_color: "#beac8e",
+              icon: "asterisk",
+              icon_color: "#f28533",
             },
             {
               name: "pi",
