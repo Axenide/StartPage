@@ -65,7 +65,7 @@ tabs-list::before {
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(15px) brightness(50%); /* Ajusta el valor del desenfoque según lo necesites */
+    filter: blur(5px) brightness(50%); /* Ajusta el valor del desenfoque según lo necesites */
     z-index: -1; /* Asegúrate de que esté detrás del contenido */
 }
 
