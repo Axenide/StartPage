@@ -53,7 +53,24 @@ tabs-list {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(../img/coke.jpg);
+    overflow: hidden; /* Importante para asegurar que el pseudo-elemento no se desborde */
+}
+
+tabs-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: blur(15px) brightness(50%); /* Ajusta el valor del desenfoque según lo necesites */
+    z-index: -1; /* Asegúrate de que esté detrás del contenido */
+}
+
+/* Si necesitas que los elementos dentro de .tabs-list estén por encima del pseudo-elemento */
+tabs-list > * {
+    position: relative;
+    z-index: 1;
 }

@@ -12,6 +12,7 @@
     <link href="src/css/tabler-icons.min.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="src/img/favicon.svg">
     <title>~</title>
+    <style id="dynamic-style"></style>
   </head>
   <body>
     <tabs-list></tabs-list>
@@ -38,5 +39,18 @@
     <script type="text/javascript" src="src/components/config/config.component.js"></script>
 
     <script type="text/javascript" src="src/common/module.js"></script>
+
+    <script type="text/javascript">
+      // Simular la variable de entorno $HOME
+      const homeDir = "/home/adriano"; // Ajusta este valor según tu sistema
+
+      // Inserción dinámica de CSS
+      const dynamicStyle = document.getElementById('dynamic-style');
+      dynamicStyle.textContent = `
+        tabs-list::before {
+          background-image: url('${homeDir}/.current.wall');
+        }
+      `;
+    </script>
   </body>
 </html>

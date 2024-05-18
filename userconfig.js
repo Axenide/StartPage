@@ -25,7 +25,7 @@ const default_config = {
     "q": "config-tab",
   },
   disabled: [],
-  fastlink: "https://chat.openai.com/",
+  fastlink: "https://chatgpt.com/",
   openLastVisitedTab: false,
   tabs: [
     {
@@ -274,7 +274,7 @@ const default_config = {
             },
             {
               name: "chatgpt",
-              url: "https://chat.openai.com/",
+              url: "https://chatgpt.com/",
               icon: "brand-openai",
               icon_color: "#8ab87d",
             },
