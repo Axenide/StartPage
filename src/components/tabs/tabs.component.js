@@ -105,6 +105,7 @@ class Tabs extends Component {
 
       #panels {
           border-radius: 10px;
+          border: 1px solid #1b1d1d;
           width: 90%;
           max-width: 1200px;
           height: 450px;
@@ -122,7 +123,7 @@ class Tabs extends Component {
           height: 100%;
           overflow: hidden;
           position: relative;
-          border-radius: 10px;
+          border-radius: 9px;
       }
 
       .categories ul {
