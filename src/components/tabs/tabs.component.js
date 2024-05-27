@@ -133,7 +133,7 @@ class Tabs extends Component {
           height: 100%;
           right: 100%;
           background: #000000 url("../img/bg-1.gif") repeat left;
-	        transition: all .5s;
+	        transition: all .5s ease;
 	        # animation: scroll 25s ease-in-out infinite;
       }
 
@@ -184,7 +184,7 @@ class Tabs extends Component {
           color: #d4be98;
           text-decoration: none;
           font: 700 18px 'Roboto', sans-serif;
-          transition: all .2s;
+          transition: all .2s ease;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;

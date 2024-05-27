@@ -355,9 +355,9 @@ const default_config = {
               icon_color: "#b1b946",
             },
             {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
-              icon: "brain",
+              name: "leetcode",
+              url: "https://leetcode.com/",
+              icon: "brand-leetcode",
               icon_color: "#f28533",
             },
             {
