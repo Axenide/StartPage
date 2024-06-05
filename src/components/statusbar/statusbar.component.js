@@ -44,7 +44,7 @@ class Statusbar extends Component {
           width: 100%;
           height: 100%;
           display: grid;
-          border: 1px solid #1b1d1d;
+          border: 2px solid #111111;
           border-radius: 10px;
       }
 
@@ -72,7 +72,7 @@ class Statusbar extends Component {
           width: 35px;
           text-align: center;
           font: 700 13px 'Yu Gothic', serif;
-          color: #47423e;
+          color: #404040;
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -81,7 +81,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          color: #b1b946;
+          color: #8d987e;
       }
 
       #tabs ul li:last-child {
@@ -94,7 +94,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #e0cda5;
+          color: #e9e4e4;
           font-size: 13px;
           padding: 6px 0;
       }
@@ -105,19 +105,19 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(5) ~ li:last-child { margin: 0 0 0 140px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #f28533;
+          --flavour: #c9917a;
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #b1b946;
+          --flavour: #8d987e;
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #80a99d;
+          --flavour: #8ea5ba;
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
-          --flavour: #d3869b;
+          --flavour: #ab89b2;
       }
 
       .widgets {
@@ -176,9 +176,9 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          border-right: 1px solid #1b1d1d;
+          border-right: 2px solid #111111;
           background: transparent;
-          color: #b1b946;
+          color: #8d987e;
           cursor: pointer;
           border-radius: 10px 0px 0px 10px;
       }

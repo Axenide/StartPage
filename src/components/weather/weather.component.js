@@ -65,7 +65,7 @@ class Weather extends Component {
 
       .weather-temperature {
           font: 300 9pt 'Roboto', sans-serif;
-          color: #d4be98;
+          color: #e9e4e4;
           white-space: nowrap;
           display: flex;
           align-items: center;
@@ -97,11 +97,11 @@ class Weather extends Component {
       }
 
       .weather-condition-icon.sunny {
-          color: #f28533;
+          color: #c9917a;
       }
 
       .weather-condition-icon.cloudy {
-          color: #80a99d;
+          color: #8ea5ba;
       }
     `;
   }

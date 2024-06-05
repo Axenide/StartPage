@@ -105,7 +105,7 @@ class Tabs extends Component {
 
       #panels {
           border-radius: 10px;
-          border: 1px solid #1b1d1d;
+          border: 2px solid #111111;
           width: 90%;
           max-width: 1200px;
           height: 450px;
@@ -144,18 +144,18 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(2) {
-          --flavour: #f28533;
+          --flavour: #c9917a;
       }
 
       .categories ul:nth-child(3) {
-          --flavour: #b1b946;
+          --flavour: #8d987e;
       }
 
       .categories ul:nth-child(4) {
-          --flavour: #80a99d;
+          --flavour: #8ea5ba;
       }
       .categories ul:nth-child(5) {
-          --flavour: #d3869b;
+          --flavour: #ab89b2;
       }
 
       .categories ul .links {
@@ -181,15 +181,15 @@ class Tabs extends Component {
       }
 
       .categories ul .links a {
-          color: #d4be98;
+          color: #e9e4e4;
           text-decoration: none;
           font: 700 18px 'Roboto', sans-serif;
           transition: all .2s ease;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #0a0b0c;
-          box-shadow: 0 4px #1b1d1d, 0 5px 10px rgb(0 0 0 / 20%);
+          background: #0a0a0a;
+          box-shadow: 0 4px #111111, 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
       }
@@ -217,13 +217,13 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          border: 1px solid var(--flavour);
+          border: 2px solid var(--flavour);
           box-shadow: 0 0 15px rgba(0, 0, 0, .75);
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
           background: linear-gradient(to top, transparent, rgba(0, 0, 0, .75));
-          color: #e0cda5;
+          color: #e9e4e4;
           letter-spacing: 1px;
           font: 500 30px 'Nunito', sans-serif;
           text-align: center;
@@ -240,7 +240,7 @@ class Tabs extends Component {
       }
 
       .categories .links li h1 {
-          color: #d4be98;
+          color: #e9e4e4;
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;
