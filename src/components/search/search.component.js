@@ -77,7 +77,7 @@ class Search extends Component {
 
       .search-engines {
           list-style: none;
-          color: rgba(212, 190, 152, 0.5);
+          color: #e9e4e480;
           display: flex;
           padding: 0;
           top: 50px;
