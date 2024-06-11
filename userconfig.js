@@ -203,7 +203,7 @@ const default_config = {
               icon_color: "#8d987e",
             },
             {
-              name: "tablericons",
+              name: "tabler icons",
               url: "https://tabler-icons.io/",
               icon: "brand-tabler",
               icon_color: "#8ea5ba",
