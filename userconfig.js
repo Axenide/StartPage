@@ -25,7 +25,7 @@ const default_config = {
     "q": "config-tab",
   },
   disabled: [],
-  fastlink: "https://chatgpt.com/",
+  fastlink: "https://www.perplexity.ai/",
   openLastVisitedTab: false,
   tabs: [
     {
